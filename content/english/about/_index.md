@@ -1,9 +1,27 @@
 ---
-title: "Hey, I am John Doe!"
+# title: "코딩은 스스로 생각하고 탐구해야 가장 즐겁다"
+title: "코딩은 스스로 생각하고 탐구해야 가장 즐겁다"
 meta_title: "About"
 description: "this is meta description"
 image: "/images/avatar.png"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+```mermaid
+stateDiagram-v2
+    [*] --> Html,CSS
+
+    state Html,CSS {
+        [*] --> JavaScript
+
+        state JavaScript {
+            [*] --> React.Js
+            React.Js --> Next.Js
+
+            state Next.Js {
+                [*] --> FullStack
+                FullStack --> [*]
+            }
+        }
+    }
+```
