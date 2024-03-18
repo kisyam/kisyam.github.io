@@ -1,5 +1,4 @@
 ---
-# title: "코딩은 스스로 생각하고 탐구해야 가장 즐겁다"
 title: "코딩은 스스로 생각하고 탐구해야 가장 즐겁다"
 meta_title: "About"
 description: "this is meta description"
